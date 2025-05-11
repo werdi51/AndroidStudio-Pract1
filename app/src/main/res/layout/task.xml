@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Green_Background"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TODO_Text"
+            android:textSize="24sp"
+            android:paddingTop="23dp"
+            android:paddingStart="27dp"
+            tools:ignore="RtlSymmetry"/>
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:src="@drawable/profile"
+            android:contentDescription="@string/IconProfile"
+            android:paddingEnd="16dp"
+            android:layout_marginStart="190dp"
+            tools:ignore="RtlSymmetry"/>
+    </TableRow>
+    </TableLayout>
+
+    <!--1-->
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="59dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/corners"
+        tools:ignore="UselessParent">
+
+        <TableLayout
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Task1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Task1_Description1"
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Task1_Date"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="8dp"/>
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+</TableLayout>
+
+
+    <!--2-->
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/corners"
+            tools:ignore="UselessParent">
+
+            <TableLayout
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Task2"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Task2_Description1"
+                        android:textSize="14sp"
+                        android:layout_marginTop="4dp"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Task2_Date"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="8dp"/>
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+        </TableLayout>
+
+    <!--3-->
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/corners"
+            tools:ignore="UselessParent">
+
+            <TableLayout
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Task3"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="351dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Task3_Description1"
+                        android:textSize="14sp"
+                        android:layout_marginTop="4dp"
+                   />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Task3_Date"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="8dp"/>
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+
+
+
+</TableLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="@string/AddTask"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/panel"
+                android:padding="16dp"
+                tools:ignore="UselessParent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/list" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/alarm"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/calendar"
+                   />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/sett"
+                    />
+            </TableRow>
+        </TableLayout>
+    </TableLayout>
+</TableLayout>
+

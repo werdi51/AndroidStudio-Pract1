@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alignmentMode="alignBounds"
+    android:background="@color/Green_Background"
+    android:columnCount="2"
+    android:rowCount="10"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:paddingStart="27dp"
+
+        android:paddingTop="10dp"
+        android:text="@string/AddTask"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/backbutton" />
+
+
+    <EditText
+        android:layout_width="385dp"
+        android:layout_height="36dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/input"
+        android:paddingLeft="10dp"
+        android:text="Заголовок задачи" />
+
+
+    <EditText
+        android:layout_width="192dp"
+        android:layout_height="36dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/input"
+        android:drawableStart="@drawable/clock"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:paddingLeft="11dp"
+        android:paddingTop="5dp"
+        android:text="16:30" />
+
+    <EditText
+        android:layout_width="178dp"
+        android:layout_height="36dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/input"
+        android:drawableStart="@drawable/tab"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:paddingLeft="11dp"
+        android:paddingTop="5dp"
+        android:text="14.01.2021" />
+
+    <EditText
+        android:layout_width="386dp"
+        android:layout_height="100dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/input"
+        android:gravity="top"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Описание задачи"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
+        android:text="Записать задачу" />
+</GridLayout>

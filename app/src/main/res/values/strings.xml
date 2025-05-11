@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">aboa</string>
+    <string name="TODO_Text">Список дел</string>
+    <string name="IconProfile">Профиль</string>
+    <string name="Task1">Вечерний поход в кино</string>
+    <string name="Task1_Description1">Идем в кино с коллегами</string>
+    <string name="Task1_Date">12.05.2023</string>
+    <string name="Task2">Забрать заказ на OZON</string>
+    <string name="Task2_Description1">Пункт выдачи на улице Ленина 103</string>
+    <string name="Task2_Date">12.05.2023</string>
+    <string name="Task3">Запись в автосервис</string>
+    <string name="Task3_Description1">сдать автомобиль в автосервис на улице Бисертская д 14. замена масла</string>
+    <string name="Task3_Date">12.05.2023</string>
+    <string name="AddTask">Добавить задачу</string>
+</resources>
